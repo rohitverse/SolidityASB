@@ -1,4 +1,4 @@
-# IPFS DOCUMENTATION (ASB) by Rohit Kumar
+# [IPFS](https://ipfs.tech/) DOCUMENTATION [ASB](https://asb.guru/) by [Rohit Kumar](https://github.com/rohitverse/)
 
 ## Table of Contents
 
@@ -23,21 +23,23 @@ Pinata is a service that simplifies interactions with the IPFS network. It offer
 **[⬆ Back to Top](#table-of-contents)**
 
 2. ###  What is IPFS?
+![image](https://github.com/rohitverse/SolidityASB/assets/67726628/28c00a3e-49d2-4f9c-a11e-91ca448d0499)
 
-IPFS is a distributed file system that connects all devices using the same file system. It allows users to address and access content by its unique hash rather than its physical location. Files are divided into smaller chunks and distributed across multiple nodes, making it highly resilient and faster to retrieve files.
+[IPFS](https://ipfs.tech/) is a distributed file system that connects all devices using the same file system. It allows users to address and access content by its unique hash rather than its physical location. Files are divided into smaller chunks and distributed across multiple nodes, making it highly resilient and faster to retrieve files.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 3. ###  What is Pinata?
+![image](https://github.com/rohitverse/SolidityASB/assets/67726628/6265bca8-8150-4599-b1e6-0379205124ff)
 
-Pinata is a user-friendly IPFS gateway and toolkit that simplifies interactions with the IPFS network. It provides an API, SDKs, and command-line tools, but in this documentation, we will focus on using Pinata through its web interface.
+[Pinata](https://www.pinata.cloud/) is a user-friendly IPFS gateway and toolkit that simplifies interactions with the IPFS network. It provides an API, SDKs, and command-line tools, but in this documentation, we will focus on using Pinata through its web interface.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 4. ## Working of Pinata IPFS:
 ###  Upload files to IPFS using Pinata's website:
 
-1. Open your web browser and go to Pinata's website (https://pinata.cloud).</br></br>
+1. Open your web browser and go to [Pinata's website](https://pinata.cloud)</br></br>
 <img width="960" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/66a5efe1-853f-4b35-ae11-6a4682d21664"></br></br>
 
 2. Create a free account if you don't have one already. Login to your account.</br></br>
@@ -92,6 +94,8 @@ Pinata is a user-friendly IPFS gateway and toolkit that simplifies interactions 
 
 2. Open your web browser and go to any IPFS gateway website (e.g., https://gateway.pinata.cloud/ )</br></br>
 
+![image](https://github.com/rohitverse/SolidityASB/assets/67726628/bbca8e78-fec2-4a32-8c38-6e2f7e517a95)  </br></br>
+
 <img width="960" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/11684a1b-a653-4305-8cb8-9bbaa40989ae"> </br></br>
 [CLICK TO VIEW THROUGH PINATA GATEWAY](https://gateway.pinata.cloud/ipfs/QmdoPQQBnoRfHpWZYurqiuBG3Jf6SVgmwHvGL7AjR4T6ct)  </br></br>
 ``` Full IPFS BASE URI= https://gateway.pinata.cloud/ipfs/QmdoPQQBnoRfHpWZYurqiuBG3Jf6SVgmwHvGL7AjR4T6ct ```  </br></br>
@@ -114,14 +118,13 @@ Pinata is a user-friendly IPFS gateway and toolkit that simplifies interactions 
 5. ### Play With OpenZepplin Wizard:
    
   
-Open OpenZepplin Wizard and Click on ERC721</br></br>
+1.Open [OpenZepplin Wizard](https://docs.openzeppelin.com/contracts/4.x/wizard) and Click on ERC721</br></br>
 <img width="944" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/94a1f771-1198-4df3-9d78-bd3d305dc88a"></br></br>
 
-Write Name , Symbol and Paste Base URI </br></br>
+2.Write Name , Symbol and Paste Base URI </br></br>
 <img width="960" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/306f90a9-95a0-4137-9147-b44c8b3a29cc"></br></br>
 
-Open Remix & Deploy</br></br>
-  
+3.Open Remix & Deploy</br>
 ```// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
 
@@ -141,15 +144,10 @@ contract ROHIT is ERC721, ERC721Burnable, Ownable {
     }
 } 
 ```
-Mint NFT of Token Id = 1</br></br>
-
-<img width="960" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/9b37ef2c-1a07-4e8b-8a68-e615217b738e"></br></br>
-
-Check Token URI of NFT of Token Id=1</br></br>
-
-<img width="960" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/5631fe11-b177-4fa0-9eb7-b995041cbc19"></br></br>
-
-
+4.Mint NFT of Token Id = 1</br></br>
+<img width="960" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/9b37ef2c-1a07-4e8b-8a68-e615217b738e"></br>
+5.Check Token URI of NFT of Token Id=1</br></br>
+<img width="960" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/5631fe11-b177-4fa0-9eb7-b995041cbc19"></br>
 
 **[⬆ Back to Top](#table-of-contents)**
    
