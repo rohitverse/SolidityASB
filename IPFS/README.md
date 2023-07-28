@@ -35,13 +35,31 @@ Pinata is a user-friendly IPFS gateway and toolkit that simplifies interactions 
  4. ## Working of Pinata IPFS:
  ###  Upload files to IPFS using Pinata's website:
 
-1. Open your web browser and go to Pinata's website (https://pinata.cloud).
-2. Create a free account if you don't have one already. Login to your account.
-3. Once logged in, click on the "Upload" button on the top right corner of the webpage.
-4. Drag and drop the file you want to upload, or click on the "Browse" button to select the file from your local storage.
-5. Pinata will automatically start uploading your file to the IPFS network. This process may take some time depending on the size of the file and the network's current activity.
-6. After the upload is complete, Pinata will provide you with a unique hash (CID) that represents your file on the IPFS network. You can use this hash to access the file from any IPFS node.
-    
+1. Open your web browser and go to Pinata's website (https://pinata.cloud). <br>
+<img width="960" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/66a5efe1-853f-4b35-ae11-6a4682d21664">
+
+2. Create a free account if you don't have one already. Login to your account. <br>
+<img width="960" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/dbc1b71a-0c9b-40fd-96fa-7c97ecdeaff1">
+
+3. Once logged in, click on the "Add Files" button on the top right corner of the webpage. <br>
+<img width="960" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/95f8f476-e384-4ecc-bb57-060d2917a9e1">
+
+4. Drag and drop the file you want to upload, or click on the "Select File" button to select the file from your local storage.
+
+<img width="960" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/71c07c60-02ad-4258-ba82-84162d35c1bf">
+
+5.  Click on Upload button to upload the file.
+<img width="960" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/79de5112-1ac9-4437-a65f-4fe4c712e147">
+
+6. Pinata will automatically start uploading your file to the IPFS network. This process may take some time depending on the size of the file and the network's current activity. <br>
+<img width="960" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/52276447-3ee6-431a-a0de-acde31a909d8">
+
+7. After the upload is complete, This Message will pop up.
+<img width="960" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/ef7dcf47-4d72-47ad-9a50-45cf665f9dfa">
+
+8.  Pinata will provide you with a unique hash (CID) that represents your file on the IPFS network. You can use this hash to access the file from any IPFS node.
+<img width="960" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/54e64b2a-e348-4b9f-bba5-823134e98682"><br>
+ 
    **[⬆ Back to Top](#table-of-contents)**
 
 
