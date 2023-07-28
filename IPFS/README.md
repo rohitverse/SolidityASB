@@ -12,6 +12,7 @@
 | 04  | [Working of Pinata IPFS?](#working-of-pinata-ipfs)                                 |
 | 05  | [Play With OpenZepplin Wizard](#play-with-openzepplin-wizard)                                 |
 | 06  | [Conclusion](#conclusion)                                 |
+| 07  | [Contributors](#contributors)                                 |
 
 
 1.  ### Introduction to Pinata and IPFS
@@ -155,5 +156,25 @@ contract ROHIT is ERC721, ERC721Burnable, Ownable {
 
 Pinata's user-friendly web interface allows you to easily upload and manage files on the IPFS network, providing a simple way to take advantage of the benefits of decentralized file storage.
 
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Contributor's
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/rohitverse"><img src="https://avatars.githubusercontent.com/u/67726628?v=4" width="100px;" alt="Rohit Kumar"/><br /><sub><b>Rohit Kumar</b></sub></a><br />
+      </td>
+      </tr>
+  </tbody>
+</table>
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 **[⬆ Back to Top](#table-of-contents)**
