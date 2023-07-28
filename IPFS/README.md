@@ -10,7 +10,8 @@
 | 02  | [What is IPFS?](#what-is-ipfs)                                       |
 | 03  | [What is Pinata?](#what-is-pinata)                 |
 | 04  | [Working of Pinata IPFS?](#working-of-pinata-ipfs)                                 |
-| 05  | [Conclusion?](#conclusion)                                 |
+| 05  | [Play With OpenZepplin Wizard](#play-with-openzepplin-wizard)                                 |
+| 06  | [Conclusion](#conclusion)                                 |
 
 
 1.  ### Introduction to Pinata and IPFS
@@ -100,7 +101,7 @@ Pinata is a user-friendly IPFS gateway and toolkit that simplifies interactions 
 3. Open your web browser and go to any IPFS gateway website (e.g., https://ipfs.io/ipfs/) </br></br>
 
 <img width="960" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/ab93c007-ad7d-4172-a1f7-65f97bbcdaa6"></br></br>
-[LICK TO VIEW THROUGH IPFS GATEWAY ](https://ipfs.io/ipfs/QmdoPQQBnoRfHpWZYurqiuBG3Jf6SVgmwHvGL7AjR4T6ct) </br></br>
+[CLICK TO VIEW THROUGH IPFS GATEWAY ](https://ipfs.io/ipfs/QmdoPQQBnoRfHpWZYurqiuBG3Jf6SVgmwHvGL7AjR4T6ct) </br></br>
 ``` Full IPFS BASE URI = https://ipfs.io/ipfs/QmdoPQQBnoRfHpWZYurqiuBG3Jf6SVgmwHvGL7AjR4T6ct ``` </br></br>
 ``` Gateway = https://ipfs.io/ipfs/ ``` </br></br>
 ``` CID = QmdoPQQBnoRfHpWZYurqiuBG3Jf6SVgmwHvGL7AjR4T6ct ``` </br></br>
@@ -108,6 +109,47 @@ Pinata is a user-friendly IPFS gateway and toolkit that simplifies interactions 
 4. The IPFS gateway will fetch the file from the IPFS network and display it in your browser. You can download it from here if needed.
 <img width="960" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/d6d3089d-078e-45df-9790-ac70e851c646"></br></br>
  
+**[⬆ Back to Top](#table-of-contents)**
+
+5. ### Play With OpenZepplin Wizard:
+   
+  
+Open OpenZepplin Wizard and Click on ERC721</br></br>
+<img width="944" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/94a1f771-1198-4df3-9d78-bd3d305dc88a"></br></br>
+
+Write Name , Symbol and Paste Base URI </br></br>
+<img width="960" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/306f90a9-95a0-4137-9147-b44c8b3a29cc"></br></br>
+
+Open Remix & Deploy</br></br>
+  
+```// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.9;
+
+import "@openzeppelin/contracts@4.9.2/token/ERC721/ERC721.sol";
+import "@openzeppelin/contracts@4.9.2/token/ERC721/extensions/ERC721Burnable.sol";
+import "@openzeppelin/contracts@4.9.2/access/Ownable.sol";
+
+contract ROHIT is ERC721, ERC721Burnable, Ownable {
+    constructor() ERC721("ROHIT", "RHT") {}
+
+    function _baseURI() internal pure override returns (string memory) {
+        return "https://ipfs.io/ipfs/QmdoPQQBnoRfHpWZYurqiuBG3Jf6SVgmwHvGL7AjR4T6ct";
+    }
+
+    function safeMint(address to, uint256 tokenId) public onlyOwner {
+        _safeMint(to, tokenId);
+    }
+} 
+```
+Mint NFT of Token Id = 1</br></br>
+
+<img width="960" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/9b37ef2c-1a07-4e8b-8a68-e615217b738e"></br></br>
+
+Check Token URI of NFT of Token Id=1</br></br>
+
+<img width="960" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/5631fe11-b177-4fa0-9eb7-b995041cbc19"></br></br>
+
+
 
 **[⬆ Back to Top](#table-of-contents)**
    
