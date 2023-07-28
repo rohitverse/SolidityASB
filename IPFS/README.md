@@ -152,14 +152,14 @@ contract ROHIT is ERC721, ERC721Burnable, Ownable {
 
 **[⬆ Back to Top](#table-of-contents)**
    
-### Conclusion
+6. ### Conclusion
 
 Pinata's user-friendly web interface allows you to easily upload and manage files on the IPFS network, providing a simple way to take advantage of the benefits of decentralized file storage.
 
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Contributor's
+7. ### Contributor's
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
