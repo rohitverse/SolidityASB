@@ -169,7 +169,7 @@ Pinata's user-friendly web interface allows you to easily upload and manage file
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/rohitverse"><img src="https://avatars.githubusercontent.com/u/67726628?v=4" width="100px;" alt="Rohit Kumar"/><br /><sub><b>Rohit Kumar</b></sub></a><br />
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/rohitverse"><img src="https://avatars.githubusercontent.com/u/67726628?v=4" width="100px;" alt="Rohit Kumar"/><br /><sub><b> Rohit Kumar </b></sub></a><br />
       </td>
       </tr>
   </tbody>
