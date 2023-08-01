@@ -137,7 +137,7 @@ contract ROHIT is ERC721, ERC721Burnable, Ownable {
     constructor() ERC721("ROHIT", "RHT") {}
 
     function _baseURI() internal pure override returns (string memory) {
-        return "https://ipfs.io/ipfs/QmdoPQQBnoRfHpWZYurqiuBG3Jf6SVgmwHvGL7AjR4T6ct";
+        return "https://ipfs.io/ipfs/";
     }
 
     function safeMint(address to, uint256 tokenId) public onlyOwner {
@@ -146,9 +146,11 @@ contract ROHIT is ERC721, ERC721Burnable, Ownable {
 } 
 ```
 4.Mint NFT of Token Id = 1</br></br>
-<img width="960" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/9b37ef2c-1a07-4e8b-8a68-e615217b738e"></br>
+<img width="960" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/1897575f-3267-48cb-ab08-7a58e2dcffe0">
+</br>
 5.Check Token URI of NFT of Token Id=1</br></br>
-<img width="960" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/5631fe11-b177-4fa0-9eb7-b995041cbc19"></br>
+<img width="960" alt="image" src="https://github.com/rohitverse/SolidityASB/assets/67726628/f0b4177a-b1bd-4fe8-a4ed-e010966e6f4f">
+></br>
 
 **[⬆ Back to Top](#table-of-contents)**
    
