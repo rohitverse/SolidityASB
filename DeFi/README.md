@@ -2,6 +2,8 @@
 
 # Overview of Uniswap
 
+![image](https://github.com/rohitverse/SolidityASB/assets/67726628/0ee3a4c7-9014-460e-9cf1-c58cff0619c7)
+
 Uniswap is a decentralized exchange (DEX) protocol built on the Ethereum blockchain. It enables users to trade Ethereum-based tokens without the need for a centralized intermediary. Key features of Uniswap include:
 
 1. **Automated Market Maker (AMM):** Uniswap utilizes an AMM model, which operates on liquidity pools and smart contracts. This approach allows for token swaps without relying on traditional order books, making it more efficient and accessible.
