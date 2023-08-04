@@ -41,3 +41,9 @@
 **Definition:** Liquidity provider fees are charges applied to users who make trades in a liquidity pool. These fees are distributed among the liquidity providers as a reward for their participation and support of the platform.
 
 **Example:** To use the piggy bank (liquidity pool) and make trades, users pay a small fee. This fee is shared among the liquidity providers as a thank-you for their support in keeping the pool well-funded.
+
+### Arbitrage
+
+**Definition:** Arbitrage is a trading strategy that takes advantage of price differences for the same asset in different markets. It involves buying the asset at a lower price in one market and simultaneously selling it at a higher price in another market to make a profit from the price discrepancy.
+
+**Example:** Let's say you notice that a particular cryptocurrency, CryptoABC, is being sold for $100 on Exchange A but is being bought for $110 on Exchange B. You can perform arbitrage by purchasing CryptoABC for $100 on Exchange A and then immediately selling it for $110 on Exchange B. This allows you to make a risk-free profit of $10 per unit of CryptoABC. The process relies on quick and efficient trading to exploit the price difference before it disappears.
